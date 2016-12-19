@@ -1,0 +1,23 @@
+{
+  "name": "generator-inspur",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "yulong.xu"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
