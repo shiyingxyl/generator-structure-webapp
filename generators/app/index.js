@@ -408,7 +408,7 @@ module.exports = generators.Base.extend({
     installing: function () {
         // this.npmInstall();
         // this.bowerInstall();
-        // this.installDependencies()
+        this.installDependencies()
     },
     //step8
     end: function () {
