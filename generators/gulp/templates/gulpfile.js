@@ -22,7 +22,7 @@ gulp.task('default', gulp.series('clean', 'build'));
 gulp.task("server", gulp.series('webpack:watch', 'watch', 'other', 'browsersync'));
 
 /*启动服务,测试*/
-gulp.task("server:dist", gulp.series('default', 'browserSync:dist'));
+gulp.task("server:dist", gulp.series('default', 'browsersync:dist'));
 
 gulp.task('test', gulp.series('karma:single-run'));
 gulp.task('test:auto', gulp.series('karma:auto-run'));

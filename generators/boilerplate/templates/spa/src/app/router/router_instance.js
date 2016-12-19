@@ -2,14 +2,14 @@ import Router from "./Router.js";
 
 const router = {
     init() {
-        $('#myTab a').click(function (e) {
-          e.preventDefault()
+        $('#myTab a').click(function () {
           $(this).tab('show');
         });
 
 
         let router = new Router();
         router.route('/', function() {
+            router.navigate("/home", "home");
             console.log("这是主页");
         });
         router.route('/home', function() {

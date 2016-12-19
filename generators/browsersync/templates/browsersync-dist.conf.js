@@ -2,7 +2,7 @@
 module.exports = function () {
     return {
         server: {
-            baseDir: './'
+            baseDir: './dist'
         },
         open: false
     };
