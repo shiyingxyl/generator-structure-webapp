@@ -39,6 +39,7 @@ module.exports = {
         },
         {test: /\.html$/,   loader: "html?minimize=false"},
         {test: /\.tpl$/, loader: "html?minimize=false"},
+        { test: /\.jade$/, loader: 'jade' },
         {test: /\.(woff|woff2)$/,   loader: "url?limit=10000&minetype=application/font-woff&name=[path][name].[ext]"},
         {test: /\.ttf$/,    loader: "file?name=[path][name].[ext]"},
         {test: /\.eot$/,    loader: "file?&name=[path][name].[ext]"},
